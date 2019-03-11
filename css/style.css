@@ -8,14 +8,15 @@
 
 body {
 	width: 1200px;
-	background-color: white;
+	background-color: rgba(26,30,49,1.00);
 }
 
 #content{
 	width: 1100px;
 	height: 100%;
-	background-color: white;
+	background-color: rgba(26,30,49,1.00);
 	font-family: Arial, Helvetica, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Arial, "sans-serif";
+	color: #F0F0F0;
 	padding-bottom: 50px;
 }
 
@@ -37,14 +38,19 @@ p{
 	height: 100%;
 	position: fixed;
 	padding-left: 30px;
+	border-right: 5px solid #2D3460;
 }
 
 #logo{
-	margin: 20px;
-	float: right;
+	float: left;
+	margin: 20px 0px 20px 0px;
 }
 
-#logo:hover {
+#logo_wordmark{
+	margin-left: 10px;
+}
+
+#logo_wordmark:hover {
 	animation: logo-hover;
 	-webkit-animation: logo-hover;
 	animation-duration: 0.2s;
@@ -116,7 +122,6 @@ p{
 
 #pageTop h1{
 	font-size: 48px;
-	color: black;
 	padding:10px;
 	border-radius: 0px 40px 40px 0px;
 	z-index: 1;
@@ -130,7 +135,7 @@ h2{
 #container{
 	float: left;
 	width: 800px;
-	margin: 0px 0px 10px 200px;
+	margin: 0px 0px 0px 200px;
 	clear:both;
 }
 
@@ -140,7 +145,6 @@ h2{
 }
 
 #col1 p{
-	padding-top: 10px;
 	font-size: 12px;
 }
 
@@ -151,14 +155,12 @@ h2{
 .projectimages{
 	width: 600px;
 	float: left;
-	margin-top: 10px;
 	margin-left: 20px;
 }
 
 .projectimages p{
 	font-size: 10px;
 	color: #333333;
-	margin-bottom: 20px;
 }
 
 .projectColA{
@@ -176,8 +178,8 @@ h2{
 .imageGrid{
 	float: left;
 	clear:both;
-	width: 800px;
-	margin: 0px 0px 10px 200px;
+	width: 930px;
+	margin: 0px 0px 0px 170px;
 }
 
 .imageGrid a{
@@ -188,10 +190,10 @@ h2{
 .imageGrid h2{
 	clear: both;
 	margin-bottom: 10px;
+	margin-left: 30px;
 }
 
 .imageGrid img{
-	margin: 5px 10px 0px 0px;
 }
 
 .imageGrid h3{
@@ -224,18 +226,20 @@ h2{
 	-webkit-animation-duration: 0.2s;
 }
 
-
-
 .imageGridA{
-	width: 390px;
+	width: 300px;
 	float: left;
-	margin-right: 0px;
 }
 
 .imageGridB{
-	width: 390px;
+	width: 300px;
 	float: left;
 	
+}
+
+.imageGridC{
+	width: 300px;
+	float: left;
 }
 
 #aboutContact{
