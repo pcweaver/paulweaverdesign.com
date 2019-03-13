@@ -30,6 +30,10 @@ p{
 	margin-bottom: 10px;
 }
 
+a{
+	margin-bottom: 10px;
+}
+
 #header {
 	float: left;
 	color: #F0F0F0;
@@ -114,17 +118,13 @@ p{
 
 
 #pageTop{
-	width: 780px;
-	height: 92px;
-	margin-left: 160px;
-	text-align: right;
+	float: right;
+	margin-right: 35px;
 }
 
 #pageTop h1{
 	font-size: 48px;
 	padding:10px;
-	border-radius: 0px 40px 40px 0px;
-	z-index: 1;
 }
 
 
@@ -280,5 +280,12 @@ h2{
 	margin-bottom:30px;
 }
 
-hr {
+#About {
+	float: right;
+	margin-right: 35px;
+}
+
+#About h1{
+	font-size: 48px;
+	padding: 10px;
 }
